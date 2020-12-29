@@ -45,6 +45,15 @@ func ReadInts(path string) (nums []int) {
 	return
 }
 
+func CopyStringSlice(slice []string) []string {
+	copy := make([]string, len(slice))
+	for i, s := range slice {
+		copy[i] = s
+	}
+
+	return copy
+}
+
 func TestExamples(t *testing.T, f func([]string) int, examples map[string]int) {
 	for example, expected := range examples {
 		t.Run(example, func(t *testing.T) {
