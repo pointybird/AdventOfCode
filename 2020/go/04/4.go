@@ -1,12 +1,11 @@
 package main
 
 import (
+	"aoc2020/utils"
 	"fmt"
 	"regexp"
 	"strconv"
 	"strings"
-
-	"../utils"
 )
 
 var required []string = []string{"byr", "iyr", "eyr", "hgt", "hcl", "ecl", "pid"}

@@ -1,14 +1,13 @@
 package main
 
 import (
+	"aoc2020/utils"
 	"fmt"
 	"math"
 	"math/big"
 	"regexp"
 	"strconv"
 	"strings"
-
-	"../utils"
 )
 
 var mask []string

@@ -1,11 +1,10 @@
 package main
 
 import (
+	"aoc2020/utils"
 	"fmt"
 	"regexp"
 	"strings"
-
-	"../utils"
 )
 
 var rules map[string]messageRule

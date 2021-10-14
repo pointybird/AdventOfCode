@@ -1,9 +1,8 @@
 package main
 
 import (
+	"aoc2020/utils"
 	"fmt"
-
-	"../utils"
 )
 
 var target int = 2020

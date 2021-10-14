@@ -1,12 +1,11 @@
 package main
 
 import (
+	"aoc2020/utils"
 	"fmt"
 	"math"
 	"regexp"
 	"strconv"
-
-	"../utils"
 )
 
 var x, y, heading int

@@ -1,12 +1,11 @@
 package main
 
 import (
+	"aoc2020/utils"
 	"fmt"
 	"regexp"
 	"strconv"
 	"strings"
-
-	"../utils"
 )
 
 func validate(pattern *regexp.Regexp, input []string, passwordValidator func([]string) bool) (count int) {

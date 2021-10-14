@@ -1,11 +1,10 @@
 package main
 
 import (
+	"aoc2020/utils"
 	"fmt"
 	"strconv"
 	"strings"
-
-	"../utils"
 )
 
 func Part1(input []string) (sum int) {

@@ -1,10 +1,9 @@
 package main
 
 import (
+	"aoc2020/utils"
 	"fmt"
 	"sort"
-
-	"../utils"
 )
 
 var paths map[int]int

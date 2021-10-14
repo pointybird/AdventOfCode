@@ -1,9 +1,8 @@
 package main
 
 import (
+	"aoc2020/utils"
 	"fmt"
-
-	"../utils"
 )
 
 func Part1(input []string) (total int) {

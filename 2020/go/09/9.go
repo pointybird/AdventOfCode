@@ -1,10 +1,9 @@
 package main
 
 import (
+	"aoc2020/utils"
 	"fmt"
 	"sort"
-
-	"../utils"
 )
 
 func Part1(input []int, preambleLength int) int {

@@ -1,12 +1,11 @@
 package main
 
 import (
+	"aoc2020/utils"
 	"fmt"
 	"regexp"
 	"strconv"
 	"strings"
-
-	"../utils"
 )
 
 var containsPattern *regexp.Regexp = regexp.MustCompile(`(\d+) (\w+ \w+) bag[s]?[,.]`)

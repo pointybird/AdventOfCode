@@ -1,12 +1,11 @@
 package main
 
 import (
+	"aoc2020/utils"
 	"fmt"
 	"regexp"
 	"strconv"
 	"strings"
-
-	"../utils"
 )
 
 var ticketRules map[string][4]int = make(map[string][4]int)

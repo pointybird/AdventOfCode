@@ -1,9 +1,8 @@
 package main
 
 import (
+	"aoc2020/utils"
 	"testing"
-
-	"../utils"
 )
 
 func TestPart1(t *testing.T) {
